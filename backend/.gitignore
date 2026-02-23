@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+# If client and server are in separate folders and you need to ignore both
+# client/node_modules
+# server/node_modules
+
+# Environment Variables
+.env
+.env.local
+
+# Build artifacts
+build
+dist
+*.o
+*.pyc
+
+# Logs and coverage reports
+logs
+*.log
+npm-debug.log*
+coverage
+
+# OS and IDE files
+.DS_Store
+.idea
+.vscode
